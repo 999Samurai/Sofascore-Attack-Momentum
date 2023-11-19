@@ -1,5 +1,4 @@
 const loadMoreBtn = document.querySelector("#loadMore");
-const newMatchesMsg = document.querySelector("#newMatchesMsg");
 const mainCont = document.querySelector(".mainContainer");
 let listOfH2 = []; // list of 'h2', each 'h2' saves the match live result, attr 'id' is a reference to a matchID
 let liveMatches = [];
@@ -231,8 +230,6 @@ function addNoLiveMatchesMsg(){
 }
 
 async function main(){
-    newMatchesMsg.style.display = "none";
-
     try{
         // do request, build array of matches, for each match extract match id and build iframe..
         await getLiveMatches();
