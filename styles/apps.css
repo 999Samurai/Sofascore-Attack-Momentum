@@ -1,0 +1,131 @@
+
+.mainContainer {
+    /* background-size: cover; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* border-style: solid; */
+}
+
+.matchContainer:hover {
+    background-color: #D6EEEE;
+}
+
+.matchContainer {
+    display:grid;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: rgb(204, 204, 204);
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    box-shadow: 5px 5px 30px rgba(72, 71, 71, 0.4);
+    height: 250px;
+    width: 400px;
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.obs {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.obs > div {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    padding-right: 20px;
+}
+
+.obs p {
+    text-align: center;
+}
+
+#newMatchesMsg{
+    color:brown;
+}
+
+h2 {
+    margin-left: 10px;
+    font-size: 14px;
+    color:brown;
+    font-family:'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-size: cover;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.divSelected {
+    background-color: #D6EEEE;
+    box-shadow: 0px 5px 5px rgba(72, 71, 71, 0.8);
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#adPrice {
+    color: rgb(0, 255, 0);
+}
+
+#betano:link, #betano:visited {
+    background-color: #f44336;
+    color: rgb(2, 2, 2);
+    font-weight: 700;
+    padding: 8px 25px; /* more at the sides */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+  
+#betano:hover, #betano:active {
+    background-color: red;
+}
+
+#loadMore {
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+}
