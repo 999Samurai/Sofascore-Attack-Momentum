@@ -192,7 +192,11 @@ function getMatchID(){
 
 function checkIfMomentumIsAvailable(){
     // returns the current matchID
-    return liveMatches[my_index].tournament.uniqueTournament.hasEventPlayerStatistics;
+    try {
+        return liveMatches[my_index].tournament.uniqueTournament.hasEventPlayerStatistics;
+    } catch {
+        return false;
+    }
 }
 
 function noMoreLiveMatches(){
